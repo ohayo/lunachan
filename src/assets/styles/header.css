@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: var(--magenta-light);
+    height: 60px;
+    border-bottom: 4px solid var(--magenta-super-light);
+    width: 100%;
+    font-family: 'MS UI Gothic', sans-serif;
+    letter-spacing: 5px;
+}
+
+.boards>a {
+    color: white;
+    text-align: left;
+    transition: 0.5s color;
+    margin-right: 5px;
+}
+
+.boards>a:hover {
+    color: grey;
+}
+
+.theme::before {
+    content: "Theme: ";
+    text-shadow: 2px 2px 2px rgb(163, 160, 160);
+}
+
+.theme {
+    position: absolute;
+    right: 0;
+    margin-right: 5px;
+}
+
+.theme>select {
+    background-color: var(--magenta-dark);
+    border: 1px solid white;
+    border-bottom: 4px solid var(--magenta-super-light);
+    background-color: var(--magenta-super-dark);
+    color: white;
+}

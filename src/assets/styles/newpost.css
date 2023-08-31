@@ -1,0 +1,81 @@
+.new-post {
+    border-top: 4px solid var(--magenta-super-light);
+    border-left: 2px solid var(--magenta-super-light);
+    border-bottom: 8px solid var(--magenta-super-light);
+    border-right: 2px solid var(--magenta-super-light);
+    width: 800px;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--magenta-super-dark);
+    overflow: hidden;
+}
+
+.new-post>.input {
+    text-align: left;
+    color: white;
+    font-family: 'MS UI Gothic', sans-serif;
+    font-size: 12px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.input>h1 {
+    color: white;
+    margin-right: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.input>input {
+    margin-left: 5px;
+    background-color: var(--magenta-super-light);
+    border: none;
+    border-bottom: 2px solid white;
+    border-right: 4px solid white;
+    color: rgb(255, 255, 255);
+}
+
+.input > textarea {
+    margin-left: 5px;
+    background-color: var(--magenta-super-light);
+    border: none;
+    border-bottom: 2px solid white;
+    border-right: 4px solid white;
+    color: rgb(255, 255, 255);
+}
+
+#subject {
+    margin-right: 10px;
+}
+
+#post-button {
+    background-color: var(--magenta-super-light);
+    border: none;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    width: 100px;
+    color: white;
+    transition: 0.3s background-color;
+}
+
+#post-button:hover {
+    background-color: var(--magenta-super-dark);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
+
+#comment {
+    height: 100px;
+    width: 60%;
+}
+
+#file  {
+    padding: 5px;
+}

@@ -1,0 +1,37 @@
+#stats {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#stats > #header {
+    background-color: var(--magenta-light);
+    color: white;
+    margin: 0;
+    border-top: 4px solid var(--magenta-super-light);
+    border-left: 2px solid var(--magenta-super-light);
+    border-bottom: 8px solid var(--magenta-super-light);
+    border-right: 2px solid var(--magenta-super-light);
+}
+
+#stats > #header > h1 {
+    font-size: 20px;
+}
+
+#stats-detail {
+    margin-top: 15px;
+    background-color: var(--magenta-light);
+    border-top: 4px solid var(--magenta-super-light);
+    border-left: 2px solid var(--magenta-super-light);
+    border-bottom: 8px solid var(--magenta-super-light);
+    border-right: 2px solid var(--magenta-super-light);
+    color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#stats-detail > p {
+    text-shadow: 2px 2px 14px white;
+}

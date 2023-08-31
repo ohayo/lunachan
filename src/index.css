@@ -1,0 +1,55 @@
+:root {
+  --magenta-super-light: #964B96;
+  --magenta-super-dark: #3f0e3f;
+  --magenta-light: #6B196B;
+  --magenta-dark: #410d41;
+
+  --dark-theme-super-light: #2b2b2b;
+  --dark-theme-super-dark: #000000;
+  --dark-theme-light: #4e4e4e;
+  --dark-theme-dark: #1d1b1b;
+
+  --deepocean-super-light: #3c53c7;
+  --deepocean-super-dark: #212B5F;
+  --deepocean-light: #2d3f99;
+  --deepocean-dark: #2e3c85;
+
+  --author-text-color: white;
+  --detail-text-color: rgb(192, 182, 182);
+  --thread-text-color: yellow;
+  --pinned-text-color: red;
+
+  --tsuki-2019-super-light: #141930;
+  --tsuki-2019-super-dark: #0D0E1C;
+  --tsuki-2019-light: #141930;
+  --tsuki-2019-dark: #0D0E1C;
+
+  --tsuki-2017-super-light: #555555;
+  --tsuki-2017-page-bgcolor: #070910;
+  --tsuki-2017-super-dark: #555555;
+  --tsuki-2017-light: #141930;
+  --tsuki-2017-dark: #555555;
+}
+
+body {
+  background-color: var(--tsuki-2017-page-bgcolor);
+  margin: 0;
+  font-family: 'MS UI Gothic', sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--tsuki-2017-2019-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--tsuki-2017-dark);
+}

@@ -1,0 +1,48 @@
+#recent {
+    margin-top: 30px;
+}
+
+#recent > #header {
+    background-color: var(--magenta-light);
+    color: white;
+    margin: 0;
+    border-top: 4px solid var(--magenta-super-light);
+    border-left: 2px solid var(--magenta-super-light);
+    border-bottom: 8px solid var(--magenta-super-light);
+    border-right: 2px solid var(--magenta-super-light);
+}
+
+#recent > #header > h1 {
+    font-size: 20px;
+}
+
+#recent-posts {
+    margin-top: 15px;
+    background-color: var(--magenta-light);
+    border-top: 4px solid var(--magenta-super-light);
+    border-left: 2px solid var(--magenta-super-light);
+    border-bottom: 8px solid var(--magenta-super-light);
+    border-right: 2px solid var(--magenta-super-light);
+    color: white;
+    padding: 0.1;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+
+#recent-posts > p > a {
+    color: rgb(156, 102, 156);
+    text-decoration: none;
+    transition: 0.3s color;
+}
+
+#recent-posts > p > a:hover {
+    color: white;
+}
+
+#recent-posts > p {
+    word-wrap: break-word;
+}

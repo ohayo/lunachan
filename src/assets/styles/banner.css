@@ -1,0 +1,40 @@
+.banner {
+    margin-top: 30px;
+}
+
+.banner>img {
+    min-width: 320px;
+    min-height: 106px;
+    width: 320px;
+    height: 106px;
+    border-bottom: 4px solid var(--magenta-super-light);
+}
+
+.banner>h1 {
+    color: white;
+    margin-top: 10px;
+}
+
+.banner>p {
+    border: 1px solid var(--magenta-super-light);
+    padding: 1em;
+    margin-top: -5px;
+    color: white;
+    border-bottom: 8px solid var(--magenta-super-light);
+    background-color: var(--magenta-super-dark);
+}
+
+.banner-link-notice {
+    color: white;
+    font-size: 20px;
+    transition: 0.5s color;
+    transition: 0.2s border-bottom;
+    background-color: var(--magenta-super-dark);
+    padding: 2px;
+    border-bottom: 2px solid var(--magenta-super-light);
+}
+
+.banner-link-notice:hover {
+    color: grey;
+    border-bottom: 4px solid var(--magenta-super-light);
+}
